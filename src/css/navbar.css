@@ -1,0 +1,104 @@
+#nav {
+    display: flex;
+    background-color: #393552;
+    border-bottom: 2px solid #44415a;
+    text-align: center;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#logo > a {
+    font-size: 32px;
+    transition: 0.5s color;
+}
+
+#logo > a:hover {
+    color: white;
+}
+
+.section {
+    padding: 10px;
+    text-align: center;
+}
+
+#you {
+    margin-left: auto;
+}
+
+.section > ul {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.section > ul > li > a {
+    margin-right: 30px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    text-align: left;
+    background-color: #4b466d;
+    width: 80%;
+    overflow: hidden;
+    flex-direction: row;
+    height: 100%;
+  }
+  
+  .hamburger-menu ul {
+    list-style: none;
+  }
+
+  .hamburger-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allow links to wrap to the next row */
+    justify-content: space-between; /* Space between the links */
+  }
+  
+  .hamburger-links li {
+    flex-basis: calc(50% - 10px); /* Set the width of each link (2 per row) */
+    margin-bottom: 10px; /* Adjust as needed for spacing between rows */
+  }
+  
+  @media (max-width: 700px) {
+    .hamburger {
+      display: flex;
+      padding: 20px;
+    }
+  
+    .section {
+      display: none; /* Hide regular navigation links */
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+
+    #nav {
+        display: flex;
+        background-color: #393552;
+        border-bottom: 2px solid #44415a;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 110px;
+    }
+  }

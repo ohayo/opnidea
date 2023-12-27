@@ -1,0 +1,29 @@
+#footer {
+    bottom: 0;
+    left: 0;
+    color: #e0def4; 
+    background-color: #393552;
+    border-top: 2px solid #44415a;
+    text-align: center;
+    padding: 20px 0;
+    color: #e0def4;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+}
+
+#footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}

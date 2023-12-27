@@ -1,0 +1,214 @@
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+#post-container {
+    display: flex;
+    justify-content: center;
+}
+
+.post-top { 
+    background-color: #393552;
+    color: #e0def4;
+    border: 1px solid #6a658d;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.post-top > h1 {
+    font-size: 20px;
+}
+
+.post-top > h3 {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    background-color: #272438;
+    border: 1px solid #6a658d;
+    padding: 5px;
+}
+
+.post-top > h1 > a {
+    text-decoration: none;
+    text-shadow: 0px 0px 3px white;
+}
+
+.post-attachments > a > img {
+    min-height: 300px;
+    object-fit: cover;
+    min-width: 100%;
+    max-height: 500px;
+}
+
+.post-attachments > video {
+    min-height: 300px;
+    object-fit: cover;
+    min-width: 100%;
+    max-height: 500px;
+}
+
+.post-attachment-controls {
+    border: 1px solid #6a658d;
+    text-align: center;
+    background: transparent;
+    color: #e0def4;
+    border: 1px solid #6a658d;
+    padding: 5px;
+    margin-top: -35px;
+    justify-content: space-between;
+    display: flex;      
+}
+
+.post-attachment-controls > button {
+    border: 1px solid #6a658d;
+    background-color: transparent;
+    color: #e0def4;
+    width: 100px;
+    font-size: 14px;
+    transition: 0.3s background-color;
+}
+
+.post-attachment-controls > button:hover {
+    background-color: #6a658d;
+}
+
+.post-attachment-controls > button:active {
+    background-color: #393552;
+}
+
+.post-stats {
+    background-color: #393552;
+    color: #e0def4;
+    border: 1px solid #6a658d;
+    text-align: center;
+    padding: 10px;
+}
+
+.post-caption {
+    background-color: rgb(52, 49, 78);
+    color: #e0def4;
+    border: 1px solid #6a658d;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    font-size: 18px;
+    display: flex;
+}
+
+.post-quick-click {
+    background-color: rgb(52, 49, 78);
+    color: #e0def4;
+    border: 1px solid #6a658d;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.post-quick-click > button {
+    border: 1px solid #6a658d;
+    background-color: #393552;
+    color: #e0def4;
+    padding: 5px;
+    width: 100px;
+    margin-right: 5px;
+    font-size: 14px;
+    transition: 0.3s background-color;
+}
+
+.post-quick-click > button:hover{
+    background-color: #474366;
+}
+
+.post-quick-click > button:active {
+    background-color: #252236;
+}
+
+.post-quick-click > select {
+    border: 1px solid #6a658d;
+    background-color: #393552;
+    color: white;
+}
+
+#more > h1 {
+    border-bottom: 2px solid #6a658d;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+#collections > h1 {
+    border-bottom: 2px solid #6a658d;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 28px;
+}
+
+#more-posts {
+    display: flex;
+    flex-direction: row;
+}
+
+.more-post-preview {
+    background-color: #3c3758;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.more-post-preview > h1 {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -5px
+}
+
+.more-post-preview > img {
+    max-width: 300px;
+    max-height: 100px;
+    margin: auto;
+}
+
+.more-post-preview > video {
+    max-width: 300px;
+    max-height: 100px;
+    margin: auto;
+}
+
+#view-all {
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
+#collections-preview {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-more-caption {
+    text-shadow: 0px 0px 3px white;
+}
+
+.view-more-caption:hover {
+    cursor: pointer;
+    filter: drop-shadow(4px 4px black)
+}
+
+.view-more-caption:active {
+    transform: translateY(5px);
+}
+
+@media (max-width: 600px) {
+    #collections-preview {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

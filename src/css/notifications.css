@@ -1,0 +1,33 @@
+#notifications-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: #393552;
+    border: 1px solid #7a6ea2;
+    box-shadow: 4px 4px 0px 0px rgb(71, 71, 71);
+    width: 500px;
+}
+
+#notifications-wrapper > button {
+    background-color: #5b5485;
+    border: 1px solid #7a6ea2;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+#notifications-wrapper > button:hover {
+    background-color: #393552;
+    transition: 0.3s background-color;
+}
+
+#notifications-wrapper::before {
+    content: var(--notifications-text);
+    padding-left: 5px;
+    display: flex;
+    align-items: first baseline;
+    align-self: first baseline;
+}

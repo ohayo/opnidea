@@ -1,0 +1,100 @@
+#admin-links {
+    background-color: #393552;
+    border: 2px solid #44415a;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#admin-links > li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#admin-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.admin-statblock {
+    background-color: #393552;
+    border: 2px solid #44415a;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.admin-statblock > h1 {
+    font-size: 20px;
+}
+
+.admin-important {
+    filter: drop-shadow(2px 2px black)
+}
+
+#adminusersmanagement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+#adminusersmanagement > input {
+    background-color: #232136;
+    color: #e0def4;
+    border: 1px solid #7a6ea2;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.admin-user-management-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+    text-align: center;
+}
+
+.admin-user-selected {
+    background-color: #4d476e;
+    border: 2px solid #44415a;
+    width: 750px;
+    margin: 0;
+    height: 550px;
+    overflow: hidden;
+}
+
+.admin-user-selected > img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 64px;
+}
+
+.admin-user-selected > h1 {
+    font-size: 20px;
+}
+
+.admin-user-selected-category > h1 {
+    font-size: 12px;
+    color: grey;
+    margin-bottom: -10px;
+}
+
+.admin-user-selected-category > h2 {
+    font-size: 18px;
+}
+
+.admin-user-actions {
+    margin-top: 10px;
+}
+
+.admin-user-actions > button {
+    width: 80%;
+    margin-bottom: 15px;
+}
